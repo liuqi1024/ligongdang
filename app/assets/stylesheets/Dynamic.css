@@ -1,0 +1,43 @@
+﻿/*800及以下dpi(600)*/
+@media screen and (max-width: 800px) {
+	#banner{ overflow:hidden;width:100%;margin:0 auto;left:auto;}
+	#menu{width:100%;}
+	#Introduction{width:auto;}
+	#Service{width:auto;}
+	#Case{width:auto;}
+	#contact_us{width:auto;}
+	#footer{width:auto;}
+	.ad{width:100%;margin:0 auto; left:auto; overflow:hidden;}
+	#menu ul li a{padding:0 10px;width:auto;}
+	#Introduction .content{width:auto;margin:0 30px;}
+	#Service .ServiceNr{padding-bottom:40px;width:100%;}
+	#Service .ServiceList{width:50%;margin:0 auto; text-align:center;}
+	#Service .ServiceList dt img{margin:0 auto;}
+	#Service .ServiceList dd ul{ text-align:center;}
+	#Case{width:100%;}
+	.shuoming{width:70%;margin:0 5%;}
+	.CaseList li{margin:0;}
+	#partner{width:100%;}
+	.PictureList{ float:none;width:200px;margin:0 auto;}
+	.PictureList li{ float:none; margin:0 0 15px;display:block;}
+	#News{width:auto;}
+	#News .NewsList li{width:80%;margin:0 10%;}
+	#News .more{width:80%;margin:0 10%;}
+	#contact_us ul li{width:200px;}
+	#container {width:100%;}
+	#container .center{width:90%;padding:0 5%;}
+	#NewsList{width:100%; float:none;}
+	#NewsList .NewsList{width:100%;}
+	#NewsList li{width:95%; display:block;margin:0; float:none;}
+	#container2{width:100%;}
+	#container2 .center{width:90%;padding:0 5%;}
+	#DocContent{width:100%; float:none;}
+	#sidebar{width:100%; float:none;}
+}
+
+@media screen and (max-width: 640px) {
+	#menu ul li a{ font-size:12px;padding:0 4px;width:auto;}
+	#banner .logo img{width:70%;}
+	#Service .ServiceList{width:100%;}
+	.CaseList { overflow:hidden;width:300px;margin:0 auto; float:none; display:block;}
+	.CaseList li{margin:0 auto; float:none; display:block;}
